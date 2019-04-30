@@ -1,0 +1,165 @@
+@media screen and (max-width: 787px) {
+    .bg {
+    min-height: 1230px;
+}
+    
+    .name {
+        height: 60px;
+    }
+
+    .name ul li:last-child {
+        width: 50px;
+        height: 30px;
+        margin-top: 2px;
+    }
+
+    .contentBody {
+        width: 95%;
+        height: auto;
+    }
+
+    .sideBar {
+        width: 100%;
+        height: 225px;
+        background-color: rgba(98, 4, 96, 0.5);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .sideBar div {
+        display: inline-block;
+    }
+
+    .photo {
+        width: 25%;
+        height: 100%;
+    }
+
+    .manu {
+        width: 74%;
+        height: 100%
+    }
+
+    .doc {
+        width: 100%;
+        height: 425px;
+        margin: 25px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .name {
+        height: 50px;
+    }
+
+    .name ul li {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+    .name ul li:nth-child(3) {
+        font-size: 12px;
+    }
+
+    .name ul li:last-child {
+        width: 30px;
+        height: 20px;
+        margin-top: 2px;
+    }
+
+    .sideBar {
+        height: 150px;
+    }
+
+    footer {
+        height: 50px;
+        margin: 0 auto
+    }
+
+    footer ul {
+        width: 250px;
+        display: table;
+        margin: 0 auto;
+    }
+
+    footer ul li {
+        float: none;
+    }
+
+    footer ul li:nth-child(7) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .navBar ul {}
+
+    .navBar ul li {
+        display: none;
+    }
+
+    .navBar ul li:first-child,
+    .navBar ul li:last-child {
+        display: block;
+    }
+
+    .nList-content {
+        margin-left: -150px
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .name ul li {
+        font-size: 20px;
+    }
+
+    .name ul li:nth-child(3) {
+        line-height: 2.7;
+    }
+
+    .photo {
+        width: 30%;
+    }
+
+    .manu {
+        width: 69%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /*
+    .navBar ul li:last-child {display: none;}*/
+
+    .name {
+        height: 40px;
+    }
+
+    .name ul li {
+        font-size: 16px;
+    }
+
+    .name ul li:nth-child(3) {
+        font-size: 8px;
+        line-height: 4;
+    }
+
+    .name ul li:last-child {
+        width: 30px;
+        height: 20px;
+        margin-top: 2px;
+    }
+
+    .photo {
+        width: 35%;
+    }
+
+    .manu {
+        width: 63%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navBar ul li:last-child {
+        display: none;
+    }
+}
